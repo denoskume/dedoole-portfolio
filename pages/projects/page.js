@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { db } from '../../lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import Head from 'next/head';
-import styles from '../../public/assets/css/styles.module.css';
+import styles from '../../public/assets/css/styles.module.css';  // Using CSS Modules
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
