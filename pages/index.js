@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "../public/assets/css/styles.css";
+import Image from 'next/image';
+import styles from '../public/assets/css/styles.css';
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>pages/page.js</code>.
+            Get started by editing <code>pages/index.js</code>.
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
