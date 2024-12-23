@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../public/assets/css/styles.css";  // Update the path based on your structure
+import styles from "../public/assets/css/styles.css";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="/assets/images/next.svg"  // Update the image path based on your structure
+          src="/assets/images/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
@@ -15,7 +15,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>app/page.js</code>.
+            Get started by editing <code>pages/page.js</code>.
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
@@ -29,7 +29,7 @@ export default function Home() {
           >
             <Image
               className={styles.logo}
-              src="/assets/images/vercel.svg"  // Update the image path based on your structure
+              src="/assets/images/vercel.svg"
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -54,7 +54,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/assets/images/file.svg"  // Update the image path based on your structure
+            src="/assets/images/file.svg"
             alt="File icon"
             width={16}
             height={16}
@@ -68,7 +68,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/assets/images/window.svg"  // Update the image path based on your structure
+            src="/assets/images/window.svg"
             alt="Window icon"
             width={16}
             height={16}
@@ -82,7 +82,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/assets/images/globe.svg"  // Update the image path based on your structure
+            src="/assets/images/globe.svg"
             alt="Globe icon"
             width={16}
             height={16}
