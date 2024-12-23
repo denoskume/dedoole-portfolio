@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { db } from '../../lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import Head from 'next/head';
-import '../../public/assets/css/styles.css';
+import styles from '../../public/assets/css/styles.module.css';
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -18,13 +18,13 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className="container">
+    <div className={styles.container}>
       <Head>
         <title>Projects</title>
       </Head>
 
-      <main className="main">
-        <h1 className="title">My Projects</h1>
+      <main className={styles.main}>
+        <h1 className={styles.title}>My Projects</h1>
         <ul>
           {projects.map((project, index) => (
             <li key={index}>
